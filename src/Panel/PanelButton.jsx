@@ -37,7 +37,7 @@ export default class PanelButton extends Component {
       }
     })();
 
-    const finalSyles = Object.assign(
+    const finalStyles = Object.assign(
       {},
       styles.button,
       additionalStyles,
@@ -50,7 +50,7 @@ export default class PanelButton extends Component {
         type="button"
         onClick={onToggle}
         title={title}
-        style={finalSyles}
+        style={finalStyles}
         onMouseOver={this.handleMouseOver}
         onMouseOut={this.handleMouseOut}
       />
